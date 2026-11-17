@@ -1,0 +1,6 @@
+- insert:
+    - id: ra2-csf-tools
+      name: '@amahahanasaki/dsh-ra2-csf'
+      config:
+        csfPath: ''
+        editorPath: ''

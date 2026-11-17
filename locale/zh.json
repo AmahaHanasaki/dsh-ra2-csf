@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "RA2 CSF 字符串表",
+    "description": "读取、编辑并保存红色警戒 2 的 CSF 字符串表,并可启动 RA2CStrEditor 编辑器"
+  }
+}
