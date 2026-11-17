@@ -5,17 +5,41 @@
   "description": "DeepSeek Harness plugin: read, edit and save Red Alert 2 / Yuri's Revenge CSF string tables, and launch RA2CStrEditor",
   "license": "MIT",
   "author": "AmahaHanasaki",
-  "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "red-alert-2", "csf", "localization"],
-  "repository": { "type": "git", "url": "git+https://github.com/AmahaHanasaki/dsh-ra2-csf.git" },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "red-alert-2",
+    "csf",
+    "localization"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmahaHanasaki/dsh-ra2-csf.git"
+  },
   "homepage": "https://github.com/AmahaHanasaki/dsh-ra2-csf#readme",
-  "bugs": { "url": "https://github.com/AmahaHanasaki/dsh-ra2-csf/issues" },
+  "bugs": {
+    "url": "https://github.com/AmahaHanasaki/dsh-ra2-csf/issues"
+  },
   "exports": {
     ".": "./index.js",
     "./locale/*.json": "./locale/*.json",
     "./icon": "./icon.svg"
   },
-  "files": ["index.js", "cordis.patch.yml", "locale/*.json", "icon.svg", "README.md", "LICENSE"],
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "dsh": ">=0.2.0"
+  },
   "dsh": {
-    "bundle": { "patch": "./cordis.patch.yml" }
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
   }
 }
